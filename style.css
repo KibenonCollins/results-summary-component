@@ -31,3 +31,17 @@
 }
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+        background-color: var(--White);
+        display: flex;
+    }
+    main{
+        background-image: linear-gradient( var(--Lightslatebluebackground), var(--Lightroyalbluebackground));
+        border-radius: 15px;
+        padding:10px;
+    }
+    .circle{
+        border-radius: 50%;
+        background-color: var(--Persianbluecircle);
+    }
