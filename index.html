@@ -6,6 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -15,19 +18,20 @@
   </style>
 </head>
 <body>
-  <main>
+<main>
+
 <div class="left">
- <h1> Your Result </h1>
+ <div class="top">Your Result </div> 
 
  <div class="circle">
-   76
-  of 100
+  <div class="num"> 76 </div>
+ <div class="total"> of 100 </div>
 </div>
 
- <h1> Great </h1>
- <p> You scored higher than 65% of the people who have taken these tests. </p>
+ <div class="great"> Great </div>
+ <p> You scored higher than 65% of <br> the people who have taken <br> these tests. </p>
 </div>
-</main>
+
   <div class="right">
     <div>
  <h1> Summary </h1>
@@ -49,7 +53,7 @@
 </div>
 </div>
 <div class="btn">  Continue </div>
-
+</main>
 </div>
   
   <div class="attribution">
