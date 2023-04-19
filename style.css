@@ -70,11 +70,11 @@
     }
     .circle{
         border-radius: 50%;
-        background-color:var(--Violetbluecircle);
+        background-image: linear-gradient(var(--Violetbluecircle), var(--Persianbluecircle));
         width:150px;
         height: 150px;
         margin: auto;
-       
+           
     }
     
     .num{
@@ -93,3 +93,4 @@
  p{
         color:var(--Lightlavender) ;
     }
+    
