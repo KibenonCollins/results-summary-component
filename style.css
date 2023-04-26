@@ -74,6 +74,9 @@
         width:150px;
         height: 150px;
         margin: auto;
+        display: grid;
+        place-content: center;
+        
            
     }
     
@@ -92,5 +95,9 @@
     }
  p{
         color:var(--Lightlavender) ;
+    }
+    .sum{
+        font-size: 20px;
+        font-weight: 700;
     }
     
