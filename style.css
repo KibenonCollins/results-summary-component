@@ -101,3 +101,55 @@
         font-weight: 700;
     }
     
+    
+
+.average {
+    display: flex;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    margin-block: 1rem;
+    border-radius: 7px;
+    transition: transform 200ms ease-in;
+  }
+  
+  .average:hover {
+    transform: scale(1.03);
+  }
+  
+  .average:nth-child(1) {
+    background-color: hsla(0, 100%, 67%, 0.2);
+  }
+  
+  .average:nth-child(1) .score_category {
+    color: var(--lightred);
+  }
+  
+  .average:nth-child(2) {
+    background-color: hsla(39, 100%, 56%, 0.2);
+  }
+  
+  .average:nth-child(2) .score_category {
+    color: var(--orangeyyellow);
+  }
+  .average:nth-child(3) {
+    background-color: hsl(166, 100%, 37%, 0.2);
+  }
+  
+  .average:nth-child(3) .score_category {
+    color: var(--greenteal);
+  }
+  .average:nth-child(4) {
+    background-color: hsl(234, 85%, 45%, 0.2);
+  }
+  
+  .average:nth-child(4) .score_category {
+    color: var(--cobaltblue);
+  }
+  
+  .average_got {
+    margin-left: auto;
+  }
+  
+  .average_got span {
+    color: hsla(241, 72%, 46%, 0.4);
+  }

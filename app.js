@@ -1,7 +1,7 @@
 let averageScore = document.querySelector(".average");
-let summationTotal =  document.querySelector(".summation")
+let total =  document.querySelector(".total")
 
-fetch("..data.json")
+fetch("../data.json")
     .then((response)=>response.json())
     .then((data)=> {
         let averageArr =[];
@@ -16,4 +16,11 @@ fetch("..data.json")
 
 
         `;
-    })}
+        averageArr.push(score.score);
+    });
+        // const average = Math.round(
+        //     averageArr.reduce((acc, currentVal) => acc + currentVal) / averageArr.length
+        //   );
+        //   total.innerHTML += `${average}<span>of 100</span>`;
+       
+    });
